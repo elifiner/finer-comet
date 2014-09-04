@@ -12,6 +12,7 @@
 }
 
 #c2 {
+  padding: 0 10px 0 10px;
   float: none;
   width: auto;
   margin: 0;
@@ -26,6 +27,22 @@
 
 #content div,p {
   text-align: initial;
+}
+
+#content img.alignleft {
+  float: none;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+#content img.alignright {
+  float: none;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
 }
 
 }

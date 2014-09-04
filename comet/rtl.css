@@ -41,7 +41,7 @@ body  {
 #commentform p input { margin-left:10px; margin-right:0px; }
 
 /* widget arrow */
-.widget li { padding:5px 20px 5px 0px; background-position:right 10px; }
+.widget li { padding:5px 0px 5px 0px; background-position:right 10px; }
 
 /* widget recent comments avatar */
 .widget_fpcomments .avatar { float:right; margin:0px 0px 0px 10px; }

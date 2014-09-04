@@ -43,7 +43,7 @@ if ( have_comments() ) { ?>
 	// comments are closed
 	if ( ! comments_open() && ! is_page() ) {
 
-		_e('Comments are closed.','comet');
+		// _e('Comments are closed.','comet');
 		
 	}
 

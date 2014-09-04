@@ -1,0 +1,31 @@
+@media (max-width: 800px) {
+
+#wrap {
+  width: auto;
+}  
+
+#c1 {
+  display: none;
+  float: none;
+  width: auto;
+  margin: 0;
+}
+
+#c2 {
+  float: none;
+  width: auto;
+  margin: 0;
+}
+
+#c3 {
+  display: none;
+  float: none;
+  width: auto;
+  margin: 0;
+}
+
+#content div,p {
+  text-align: initial;
+}
+
+}

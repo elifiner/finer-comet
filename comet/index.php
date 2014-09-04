@@ -10,6 +10,7 @@
 		<h1 class="post-title"><?php the_title(); ?></h1>
 	<?php } else { ?>
 		<h1 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+		<div><?php the_date('F j, Y'); ?></div>
 	<?php } ?>
 		<div class="post-text">
 		<?php
@@ -48,8 +49,8 @@
 
 	<?php if (is_single()) { ?>
 	<div class="post post-nav">
-		<?php previous_post_link('<div class="alignleft"><i>'.__('Previous Post','comet').'</i><br />%link</div>'); ?>
-		<?php next_post_link('<div class="alignright"><i>'.__('Next Post','comet').'</i><br />%link</div>'); ?>
+		<?php previous_post_link('<div class="alignleft"><i>'.__('פוסט קודם','comet').'</i><br />%link</div>'); ?>
+		<?php next_post_link('<div class="alignright"><i>'.__('פוסט הבא','comet').'</i><br />%link</div>'); ?>
 	</div>
 	<?php } ?>
 	

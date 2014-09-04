@@ -1,4 +1,4 @@
-/*
+                                /*
 Theme Name: Comet
 Theme URI: http://frostpress.com/themes/comet/
 
@@ -274,7 +274,7 @@ h6 {
 
 /* header */
 #header {
-	padding: 40px 0px 40px 0px;
+	padding: 10px 0px 10px 0px;
 	overflow: hidden;
 }
 	#header a {
@@ -323,6 +323,7 @@ h6 {
 		overflow: hidden;
 		border: solid 4px #D2D2D2; border-left: 0; border-right: 0;
 		display: none;
+		margin-top: 0px!important;
 	}
 	#c2 { 
 		width: 600px;
@@ -332,12 +333,14 @@ h6 {
 		border: solid 4px #D2D2D2; border-left: 0; border-right: 0;
 		background: #FFFFFF;
 		line-height: 170%;
+		margin-top: 0px!important;
 	}
 	#c3 {
 		width: 290px;
 		float: left;
 		overflow: hidden;
 		border: solid 4px #D2D2D2; border-left: 0; border-right: 0;
+		margin-top: 0px!important;
 	}
 
 /* page header */
@@ -375,6 +378,10 @@ h6 {
 	.post-text {
 		overflow: hidden;
 		margin: 20px 0px 20px 0px;
+	}
+
+	.post-text ul {
+		padding-right: 1.5em;
 	}
 
 	.post-meta { 
@@ -694,7 +701,7 @@ h6 {
 		.widget h2 {
 			display: inline-block;
 			margin: 0px 0px 10px 0px; padding: 8px 10px 8px 10px;
-			font: normal 8pt/100% Georgia, serif;
+			font: 12pt/100% arial;
 			letter-spacing: 1px;
 			text-transform: uppercase;
 			text-shadow: 1px 1px 1px rgba(255,255,255,0.6);
@@ -712,6 +719,8 @@ h6 {
 			padding: 5px 0px 5px 0px;
 			border-top: solid 1px #FFFFFF;
 			border-bottom: solid 1px #DFDFDF;
+font-size:12px;
+list-style:none;
 		}
 		.widget li:first-child {
 			border-top:0;
@@ -903,3 +912,124 @@ h6 {
 #wp-calendar #next a { padding-right:10px; text-align:right; }
 #wp-calendar #prev a { padding-left:10px; text-align:left; }
 #wp-calendar .pad, #wp-calendar .pad:hover { background:#F3F3F3; }
+
+
+
+
+
+
+
+
+#site-title,#site-description,.post-text,.menu,h1.post-title {
+	font-weight:bold;
+	font-family:Arial, sans-serif;
+}
+
+#header {
+	min-height:0;
+	height:200px;
+}
+
+#site-title {
+	margin-top:60px;
+	font-size:40px;
+}
+
+#site-description {
+	margin-top:0;
+	font-size:25px;
+	font-style:normal;
+}
+
+h1.post-title a {
+	color:#7e7387;
+}
+
+h2 {
+	color:#7e7387;
+}
+
+h1.post-title {
+	font-size:25px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+div.post-text {
+	font-size:14px;
+	font-weight:normal;
+}
+
+#content div,p {
+	margin-top:10px;
+	line-height:140%;
+	text-align:justify;
+}
+
+.menu {
+	font-size:18px;
+}
+
+#content img {
+	border:1px solid #ccc;
+	padding:5px;
+	margin-right:10px;
+}
+
+.menu li a {
+	padding:6px;
+}
+
+#site-title,#site-description {
+	margin-left:35px;
+	margin-right:35px;
+}
+
+.post-meta {
+	display:none;
+}
+
+.embed-youtube {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+form.contact-form label span {
+	margin-right:4px;
+	font-size:80%;
+}
+
+form.contact-form input.name {
+	direction:rtl;
+}
+
+form.contact-form textarea {
+	height:100px;
+}
+
+input,textarea,select {
+	font-size:18px;
+	padding:2px;
+}
+
+a {
+	color:#B41187;
+}
+
+a:hover {
+	color:#B41187;
+}
+
+div.sep {
+	display:none;
+}
+
+.post {
+	margin-bottom:0;
+}
+
+.post-text {
+	margin-bottom:0;
+}
+
+                            

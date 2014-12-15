@@ -30,7 +30,7 @@ body  {
 { left:-152px; width:150px; }
 
 /* comments */
-.comment-heading a { float:left; }
+.comment-heading { float:right; clear: right; }
 
 .comment-meta .avatar { float:right; margin:0px 0px 10px 10px; }
 .comment-quote-link { right:95%; }
@@ -39,6 +39,71 @@ body  {
 #commentform .avatar-commenter { float:left; margin:0px 10px 0px 0px; }
 
 #commentform p input { margin-left:10px; margin-right:0px; }
+#commentform #comment { float: none; }
+
+.comment-form-author label, 
+.comment-form-email label, 
+.comment-form-url label {
+    float: none;
+    padding-top: 0px;
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.comment-form-comment label {
+    float: right;
+    padding-top: 8px;
+    display: inline-block;
+    width: 95px;
+    text-align: right;
+}
+
+#commentform #author, 
+#commentform #email, 
+#commentform #url, 
+#commentform #comment {
+    float: none;
+}
+
+#commentform #submit {
+     margin-right: 95px;
+}
+
+.comment-form-author input, 
+.comment-form-url input {
+    background-position: 2px 2px;
+}
+
+.comment-form-email input {
+    background-position: 2px 4px;
+}
+
+.required {
+    float: none;
+    padding-top: 0;
+}
+
+.comment-form-url label, .comment-form-comment label {
+    padding-right: 0;
+}
+
+#content .leave-one {
+	float: left; 
+	display: inline-block;
+	margin-top: 10px;
+	padding-left: 25px;
+	background: url('images/icon_left_small.png') left 2px no-repeat;
+}
+
+blockquote, q { 
+	margin: 0px 0px 11px 0px; 
+	padding: 0px 40px 0px 0px; 
+	background: url('images/quote_right.png') right top no-repeat; 
+	overflow: hidden;
+	color: #666666;
+	font-style: italic;
+}
 
 /* widget arrow */
 .widget li { padding:5px 0px 5px 0px; background-position:right 10px; }
@@ -48,3 +113,5 @@ body  {
 
 /* widget twitter */
 .widget_fptwitter ol li { padding-right:0px; }
+
+.rtl { direction: rtl; }

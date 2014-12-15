@@ -19,14 +19,10 @@
 }
 
 #c3 {
-  display: none;
+  display: block;
   float: none;
   width: auto;
   margin: 0;
-}
-
-#content div,p {
-  text-align: initial;
 }
 
 #content img.alignleft {
@@ -35,6 +31,7 @@
   margin-left: 0;
   margin-right: 0;
   width: 100%;
+  height: auto;
 }
 
 #content img.alignright {
@@ -43,6 +40,24 @@
   margin-left: 0;
   margin-right: 0;
   width: 100%;
+  height: auto;
+}
+
+textarea {
+  max-width: 95%;
+}
+
+.no_mobile {
+  display: none !important;
+}
+
+#commentform textarea {
+  width: 100%;
+}
+
+#commentform #submit {
+  margin-right: 0 !important;
+  margin-top: 10px;
 }
 
 }

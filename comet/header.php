@@ -150,7 +150,7 @@
 
 		<div id="c2">
 
-			<?php if ( is_archive() || is_search() ) { ?>
+			<?php if ( /* is_archive() || */ is_search() ) { ?>
 				<div class="page-head">
 
 				<?php if (is_tag()) { ?>
@@ -160,7 +160,7 @@
 					
 				<?php } elseif (is_category()) { ?>
 
-					<?php _e('All posts in category','comet'); ?> <b><?php single_cat_title(''); ?></b>
+					<?php _e('All posts in category','comet'); ?> <b><?php single_cat_title(''); ?></b>-->
 
 				<?php } elseif (is_day()) { ?>
 

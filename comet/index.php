@@ -10,8 +10,8 @@
 		<h1 class="post-title"><?php the_title(); ?></h1>
 	<?php } else { ?>
 		<h1 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h1>
-		<div><?php the_date('F j, Y'); ?></div>
 	<?php } ?>
+		<div class="post-date"><?php the_date(); ?></div>
 		<div class="post-text">
 		<?php
 		// when browsing category, search, etc
@@ -47,6 +47,7 @@
 	</div>
 	<!--/post -->
 
+<!--
 	<?php if (is_single()) { ?>
 	<div class="post post-nav">
 		<?php previous_post_link('<div class="alignleft"><i>'.__('פוסט קודם','comet').'</i><br />%link</div>'); ?>
@@ -55,7 +56,7 @@
 	<?php } ?>
 	
 	<div class="sep"></div>
-
+-->
 	<?php comments_template(); ?>
 		
 	<?php endwhile; ?>
